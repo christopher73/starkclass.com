@@ -1,0 +1,34 @@
+
+.btn-facebook{
+  font-size:calc(.27548vw + 20.71074px);
+  color:#fff;
+  background-color:#4c69ba;
+} 
+.btn-google {
+  font-size:calc(.27548vw + 20.71074px);
+  color:#de5246;
+  background-color:#fff;
+}
+nav {
+  background-color: #fff;
+  z-index: 1;
+  padding-bottom: 2%;
+  border-bottom-style: solid;
+  border-bottom-width: 0.1rem;
+  border-bottom-color: rgba(192, 192, 192, 0.459);
+}
+li{
+  margin-right: 20px;
+}
+html{
+  height: 100%;
+}
+body{
+  height: 100%;
+}
+#root{height: 100%;}
+@media (max-width: 600px) {
+  ul{
+    padding-bottom: 10px;
+  }
+}

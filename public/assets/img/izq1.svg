@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_6" data-name="Rectángulo 6" width="60" height="60" transform="translate(1215 2675)" fill="#fff" stroke="#707070" stroke-width="3"/>
+    </clipPath>
+  </defs>
+  <g id="Enmascarar_grupo_6" data-name="Enmascarar grupo 6" transform="translate(-1215 -2675)" clip-path="url(#clip-path)">
+    <g id="icon06" transform="translate(1215.864 2680.087)">
+      <path id="Trazado_49" data-name="Trazado 49" d="M3127.7,1762.747v-3.391h6a3.646,3.646,0,0,0,3.652-2.348c.911-2.64-.522-3.652-.522-3.652s1.044-.394,1.044-1.3-.261-1.043-.261-1.043a1.3,1.3,0,0,0,1.3-1.3,1.589,1.589,0,0,0-1.826-1.565l.261-3.13h3.13s1.548.133,1.565-2.087c.047-5.646,1.716-30-19.043-30s-19.486,20.195-19.3,21.652" transform="translate(-3083.827 -1712.921)" fill="rgba(255,255,255,0)" stroke="#1a1a1a" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="50" stroke-width="3"/>
+      <path id="Trazado_50" data-name="Trazado 50" d="M3042.13,1762.747v-3.391h-6a3.645,3.645,0,0,1-3.652-2.348c-.911-2.64.521-3.652.521-3.652s-1.043-.394-1.043-1.3.261-1.043.261-1.043a1.3,1.3,0,0,1-1.3-1.3,1.588,1.588,0,0,1,1.826-1.565l-.261-3.13h-3.131s-1.548.133-1.565-2.087c-.046-5.646-1.716-30,19.043-30s19.488,20.195,19.3,21.652" transform="translate(-3027.733 -1712.921)" fill="rgba(255,255,255,0)" stroke="#1a1a1a" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="50" stroke-width="3"/>
+      <path id="Trazado_51" data-name="Trazado 51" d="M3108.117,1763.2h-14.87a7.863,7.863,0,0,1-7.826-7.826v-3.13a7.863,7.863,0,0,1,7.826-7.826h14.87a7.863,7.863,0,0,1,7.826,7.826v3.13A7.863,7.863,0,0,1,3108.117,1763.2Z" transform="translate(-3070.372 -1736.203)" fill="#fff"/>
+      <path id="Trazado_52" data-name="Trazado 52" d="M3133.421,1775.421l-.522.783-5.478,10.174h3.13l-1.565,8.609,6.521-11.478-4.174.261Z" transform="translate(-3101.416 -1759.117)" fill="#fa7819"/>
+    </g>
+  </g>
+</svg>

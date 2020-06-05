@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="43.579" height="50" viewBox="0 0 43.579 50">
+  <g id="Grupo_221" data-name="Grupo 221" transform="translate(-1570.21 -383)">
+    <g id="logout" transform="translate(1559.621 379.429)">
+      <path id="Trazado_337" data-name="Trazado 337" d="M0,0H23.214" transform="translate(28.429 28.571)" fill="none" stroke="#8a909b" stroke-linecap="round" stroke-width="3.571"/>
+      <path id="Trazado_299" data-name="Trazado 299" d="M42.732,44.643V50H14.161V7.143H42.732V12.5H46.3V5.357a1.786,1.786,0,0,0-1.786-1.786H12.375a1.786,1.786,0,0,0-1.786,1.786V51.786a1.786,1.786,0,0,0,1.786,1.786H44.518A1.786,1.786,0,0,0,46.3,51.786V44.643Z" fill="#8a909b"/>
+      <path id="Trazado_336" data-name="Trazado 336" d="M7.143,0,6.7.446,0,7.143" transform="translate(44.5 28.571)" fill="#8a909b" stroke="#8a909b" stroke-linecap="round" stroke-width="3.571"/>
+      <line id="Línea_24" data-name="Línea 24" x1="7.143" y1="7.143" transform="translate(44.5 21.429)" fill="none" stroke="#8a909b" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.571"/>
+      <path id="Trazado_300" data-name="Trazado 300" d="M0,3.571V0" transform="translate(44.5 10.875)" fill="none" stroke="#8a909b" stroke-linecap="round" stroke-width="3.571"/>
+      <line id="Línea_26" data-name="Línea 26" y1="3.571" transform="translate(44.5 42.857)" fill="none" stroke="#8a909b" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.571"/>
+    </g>
+  </g>
+</svg>

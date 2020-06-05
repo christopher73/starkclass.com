@@ -1,0 +1,86 @@
+.MuiList-padding {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  /* height: 100%; */
+}
+
+/* 
+.makeStyles-drawerHeader-9 {
+    background-color: #EEEEEE !important;
+} */
+
+@media (max-width: 400px) {
+  .imglogo {
+    width: 180px !important;
+    height: 70px !important;
+  }
+
+  .imglogowsp {
+    width: 20px !important;
+  }
+}
+.MuiToolbar-regular {
+  max-height: 60px;
+}
+
+.makeStyles-menuIcon-5 {
+  color: #606060 !important;
+  font-size: 40px !important;
+}
+.navi-color {
+  color: #fff !important;
+  display: inline-block !important;
+  text-align: center !important;
+  list-style: none !important;
+}
+
+/* 
+.makeStyles-drawerPaper-8 {
+    width: 260px;
+}
+.MuiDivider-root{
+    background-color: #EEEEEE !important; 
+} */
+
+.MuiButton-label {
+  color: #707070 !important;
+  font-family: "Segoe UI Web (West European)" !important;
+  font-weight: 500;
+  text-align: left;
+}
+
+.MuiButton-root:hover {
+  text-decoration: none !important;
+  background-color: transparent !important;
+}
+
+.MuiButton-root:focus {
+  border-width: 0 !important;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+/* 
+.perfil span{
+    color: #707070 !important;
+
+    font-family:'Segoe UI Web (West European)' !important;
+    font-weight: 500;
+}
+
+.border{
+    height: .5px;
+    width: 90%;
+    background-color: #bbbbbb;
+    margin-top: 30px
+}
+
+.MuiToolbar-regular {
+    max-height: 60px;
+}
+
+.makeStyles-menuIcon-5 {
+    color: #606060 !important;
+    font-size: 40px !important;
+} */

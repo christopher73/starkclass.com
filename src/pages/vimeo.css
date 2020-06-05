@@ -1,0 +1,77 @@
+#vimeo-row-2 {
+  width: 20vw;
+  height: 100%;
+  overflow-y: scroll;
+}
+#vimeo-row-1 {
+  width: 80vw;
+  height: 100%;
+}
+
+div#getvimeo > div:first-child {
+  padding: 51.25% 0 0 0 !important;
+}
+
+#triangle-right {
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-left: 15px solid #1d99f1;
+  border-bottom: 8px solid transparent;
+  margin-right: 12px;
+}
+
+.MuiButton-contained:hover {
+  background-color: #1d99f1 !important;
+}
+.MuiButton-contained {
+  background-color: #1d99f1 !important;
+  color: #ffffff !important;
+}
+div.label-white * {
+  color: #ffffff !important;
+  font-family: "Segoe UI Web (West European)" !important;
+  font-weight: 500;
+  text-align: left;
+}
+.MuiSelect-iconOpen {
+  border-bottom-color: #000 !important;
+}
+.vimeo-selecter {
+  width: 100%;
+  background-color: #626262;
+  margin-bottom: 16px !important;
+  padding: 6px !important;
+}
+.elegir-curso {
+  font-size: 1.7rem !important;
+}
+/* .MuiSelect-icon {
+  width: 40px !important;
+} */
+.MuiSelect-icon * {
+  color: #1d99f1 !important;
+  width: 40px !important;
+}
+.vimeo-selecter .MuiInputBase-input,
+.vimeo-selecter {
+  font-size: 2rem !important;
+  padding: 0.7rem;
+  color: #1d99f1;
+  text-align: center;
+  font-weight: bold !important;
+}
+#vimeo-container {
+  flex-flow: column;
+  height: auto !important;
+}
+
+#vimeo-row-2,
+#vimeo-row-1 {
+  width: 100%;
+}
+#vimeo-row-2 {
+  overflow-y: auto;
+}
+@media only screen and (max-width: 1510px) {
+}

@@ -1,0 +1,312 @@
+.gradient-bg{
+    background-image: linear-gradient(to right, #ee0494,#591ca4) !important;
+} 
+
+.btn-facebook{
+    font-size:calc(.27548vw + 20.71074px);
+    color:#fff;
+    background-color:#4c69ba;
+} 
+
+.btn-google {
+font-size:calc(.27548vw + 20.71074px);
+color:#de5246;
+background-color:#fff;
+}
+
+
+.renderizar{
+
+    font-family: 'Consolas', sans-serif;
+    font-weight: bold;
+}
+.pruebah3 h3{
+    font-size: 2rem;
+    margin-top: 80px;
+    font-weight: bold;
+    margin-left: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.pruebah1 h1{
+    font-size: 4.5rem;
+    color: #FF2870;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.pruebap p{
+    font-size: 1.4rem;
+    color: #000000;
+    margin-top: 50px;
+    font-family: 'Consolas', sans-serif;
+}
+
+.fondoorange{
+
+  background-image: url('/assets/img/fondo.png');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.fondoazul {
+    clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 85%,
+    0 100% 
+    );
+    background-color: rgb(55, 107, 229,.85) !important;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 130px;
+}
+.radio label{
+    font-size: 25px;
+    color: #515151;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 100
+}
+
+.radio {
+    width: 270px;
+}
+.fondoazul h1{
+    color: white;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+}
+.perfilh1 {
+   margin-top: 50px;
+   margin-bottom: 30px;
+}
+.perfilh1 h1{
+   font-family: 'Consolas', sans-serif;
+   font-weight: 500;
+   color: #707070;
+   font-size: 25px;
+}
+.perfilh1 div{
+    height: 1px;
+    width: 100%;
+    background-color: #dddddd !important;
+    margin-top: 10px;
+}
+
+.perfilleft img{
+    margin-bottom: 10px;
+    
+}
+.perfilleft p{
+color: #707070;
+margin: 4px;
+font-size: 20px;
+
+}
+.pagolink{
+    color: #008FFE;
+    font-size: 16px
+}
+#boton-comprar{
+    width: 70%;
+    background-color: #27A844;
+    color: white;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.perfilR{
+    margin-top: 40px;
+}
+
+@media (max-width: 992px) {
+    .padding-mobile
+    {
+    padding-top: 10px !important;
+    }
+    .fondoazul h1{
+        font-size: 35px;
+    }
+    .perfilh1 h1{
+        font-size: 25px;
+     }
+     .perfilh1 img{
+        width: 40px !important;
+     }
+
+}
+
+@media (max-width: 400px) {
+    
+    .perfilh1 h1{
+        font-size: 20px;
+     }
+     .perfilh1 img{
+        width: 30px !important;
+     }
+    .perfilR{
+        margin-top: 30px
+    }
+    #boton-comprar{
+     width: 100% !important;
+    font-size: 20px !important;
+    }
+.loginp p{
+    font-size: .8rem;
+}
+.renderizar{
+    font-size: 1.8rem;
+}
+#login{
+    height: 150px !important;
+}
+.fondoorange{
+    background-size: cover;
+  }
+}
+
+@media (max-width: 767px) {
+    .perfilh1 h1{
+        font-size: 25px;
+     }
+     .perfilh1 img{
+        width: 40px !important;
+     }
+
+     .perfilleft p{
+        color: #707070;
+        margin: 4px;
+        font-size: 18px;
+        
+        }
+    #boton-comprar{
+        width: 100% !important;
+       font-size: 20px !important;
+       }
+    .btn-facebook{
+        font-size: 1.1rem;
+    }
+    .btn-google{
+        font-size: 1.1rem;
+    }
+
+    .btn-facebook img { 
+        width: 20px;
+        margin-right: 10px !important;
+    }
+    .btn-google img {
+        width: 20px;
+        margin-right: 10px !important;
+    }
+
+    .pruebah3 h3{
+        font-size: 1.5rem;
+    }
+    .pruebah1 h1{
+        font-size: 3.5rem;
+    }
+    
+    .pruebap p{
+        font-size: 1rem;
+        margin-top: 30px
+    }
+    .fondoazul h1{
+        font-size: 30px;
+    }
+    .fondoazul {
+        padding-top: 100px;
+        padding-bottom: 130px;
+    }
+}
+
+@media (max-width: 575px) {
+
+    /* .margin-left-responsive
+    {
+        flex-basis:100px
+    } */
+    .fondoorange{
+
+        background-image: url('/assets/img/fondona2.png') !important;
+        height: 100%;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+    .btn-facebook{
+        font-size: 1.3rem;
+    }
+    .btn-google{
+        font-size: 1.3rem;
+    }
+
+    .btn-facebook img { 
+        width: 30px;
+        margin-right: 10px !important;
+    }
+    .btn-google img {
+        width: 30px;
+        margin-right: 10px !important;
+    }
+
+    .pruebah3 h3{
+
+        font-size: 1.3rem;
+    }
+    .pruebah1 h1{
+
+        font-size: 2.7rem;
+    }
+    .pruebap p{
+        font-size: .8rem;
+    }
+    
+}
+@media (min-width: 379px) and  (max-width: 440px) {
+    .margin-left-responsive
+    {
+        flex-basis:120px
+    }
+}
+@media (max-width: 400px) {
+    /* .margin-left-responsive
+    {
+        flex-basis:100px
+    } */
+    .fondoazul h1{
+        font-size: 25px;
+    }
+    .fondoazul {
+        padding-top: 70px;
+        padding-bottom: 100px;
+    }
+    
+    .radio label{
+        font-size: 20px;
+    }
+
+   .centarfoto{
+       justify-content: center !important;
+       align-content: center;
+       align-items: center;
+       flex-direction: row;
+       
+   }
+   .centarfoto img{
+    margin-left: 28%;
+    
+    }
+
+   
+    
+}
+.centarfoto img{
+ 
+box-shadow: 10px 10px 13px 0px rgba(194,192,194,1);
+    
+}

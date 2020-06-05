@@ -1,0 +1,218 @@
+.fondoGris {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(24, 24, 24, 0.87);
+  z-index: 99;
+}
+.fondoGrisRep {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9998;
+  background: rgba(24, 24, 24, 0.87);
+}
+.text-colum {
+  font-family: "Segoe UI Regular", normal !important;
+  /* font-weight: normal !important; */
+}
+.text-colum-bold {
+  font-family: "Segoe UI", bold !important;
+  font-weight: bold !important;
+}
+strong {
+  font-size: medium;
+  font-weight: bold !important;
+}
+.disabled {
+  pointer-events: none;
+  color: #ccc;
+}
+
+.caja {
+  width: 800px;
+}
+
+.cabeceracaja img {
+  margin-right: 15px;
+}
+
+.cabeceracaja {
+  background-color: #808080;
+  width: 100%;
+  height: 50px;
+  padding-top: 13px;
+  display: flex;
+}
+.cabeceracaja h1 {
+  color: white;
+  font-size: 22px;
+  text-align: center;
+  font-family: "Segoe UI Web (West European)";
+  flex: 5;
+}
+.bodycaja {
+  background-color: rgb(228, 227, 227);
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 30px;
+}
+
+.bodycaja img {
+  width: 200px;
+  margin-top: 50px;
+}
+.yape {
+  width: 100px !important;
+  margin-top: 20px !important;
+  margin-bottom: 30px;
+}
+
+@font-face {
+  font-family: "Segoe UI Web (West European)";
+  src: url("https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-regular.woff2")
+      format("woff2"),
+    url("https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-regular.woff")
+      format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bodycaja h3 {
+  font-size: 23px;
+  font-family: "Segoe UI", normal !important;
+  letter-spacing: 1px;
+  color: #262626;
+  font-weight: bold;
+}
+
+.bodycaja h4 {
+  font-size: 18px;
+  font-family: "Segoe UI Web (West European)";
+  color: #262626;
+  margin: 0px;
+}
+
+.bodycaja p {
+  font-size: 15px;
+  font-family: "Segoe UI Web (West European)";
+  margin: 0px;
+  color: #707070;
+}
+
+.bodycaja p strong {
+  font-size: 15px;
+  font-family: "Segoe UI Web (West European)";
+  margin: 0px;
+  color: #262626;
+  font-weight: bold;
+}
+
+.bodycaja h5 {
+  font-size: 13px;
+  font-family: "Segoe UI Web (West European)";
+  color: #707070;
+  margin-top: 50px;
+}
+ul {
+  list-style-type: none;
+}
+.cupon::placeholder {
+  text-align: center;
+}
+
+input :focus {
+  outline-width: 0;
+}
+
+.paymentBtn:disabled {
+  background-color: rgb(119, 198, 200) !important;
+}
+
+@media (max-width: 800px) {
+  .caja {
+    width: 600px;
+  }
+
+  .bodycaja {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .caja {
+    width: 100%;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .bodycaja h3 {
+    font-size: 18px;
+  }
+  .cabeceracaja h1 {
+    font-size: 20px;
+  }
+
+  .bodycaja p {
+    font-size: 13px;
+  }
+  .culqi-mobile {
+    font-size: 8px;
+  }
+  .culqi-mobile strong {
+    font-size: 13px;
+  }
+
+  .bodycaja p strong {
+    font-size: 13px;
+  }
+
+  .bodycaja h5 {
+    font-size: 11px;
+  }
+}
+@media (max-width: 468px) {
+  .modal-body {
+    height: 300px;
+  }
+  .caja {
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .bodycaja h3 {
+    font-size: 16px;
+  }
+  .bodycaja h4 {
+    font-size: 14px;
+  }
+  .cabeceracaja h1 {
+    font-size: 18px;
+  }
+
+  .bodycaja p {
+    font-size: 12px;
+  }
+
+  .bodycaja p strong {
+    font-size: 12px;
+  }
+  .culqi-mobile {
+    font-size: 8px;
+  }
+  .culqi-mobile strong {
+    font-size: 12px;
+  }
+
+  .bodycaja h5 {
+    font-size: 11px;
+  }
+}
+
+.culqi_checkout {
+  background-color: rgba(0, 0, 0, 0.02) !important;
+}

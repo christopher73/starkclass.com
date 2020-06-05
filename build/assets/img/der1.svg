@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_3" data-name="Rectángulo 3" width="60" height="60" transform="translate(1215 2112)" fill="#fff" stroke="#707070" stroke-width="3"/>
+    </clipPath>
+  </defs>
+  <g id="Enmascarar_grupo_3" data-name="Enmascarar grupo 3" transform="translate(-1215 -2112)" clip-path="url(#clip-path)">
+    <g id="icon03" transform="translate(1216.304 2113.345)">
+      <path id="Trazado_25" data-name="Trazado 25" d="M4061.826,1332.483l8.348,8.609s19.124-13.124,25.3-19.3,13.845-16.141,12.783-25.3c0,0-.834-2.987-3.392-2.348-4.217,1.055-15.5,2.982-25.3,15.13S4061.826,1332.483,4061.826,1332.483Z" transform="translate(-4051 -1294.046)" fill="rgba(255,255,255,0)" stroke="#1a1a1a" stroke-linecap="round" stroke-miterlimit="50" stroke-width="3"/>
+      <path id="Trazado_26" data-name="Trazado 26" d="M4061.826,1420.172l18.522-18.783" transform="translate(-4051 -1373.387)" fill="rgba(255,255,255,0)" stroke="#1a1a1a" stroke-linecap="round" stroke-miterlimit="50" stroke-width="3"/>
+      <path id="Trazado_27" data-name="Trazado 27" d="M4111.825,1429.868l2.087,12,10.7-11.478,2.348-12" transform="translate(-4087.956 -1385.952)" fill="rgba(255,255,255,0)" stroke="#1a1a1a" stroke-linecap="round" stroke-miterlimit="50" stroke-width="3"/>
+      <path id="Trazado_28" data-name="Trazado 28" d="M4192.825,1303.389s.8,8.139,10.174,10.7" transform="translate(-4147.825 -1300.952)" fill="rgba(255,255,255,0)" stroke="#1a1a1a" stroke-linecap="round" stroke-miterlimit="50" stroke-width="3"/>
+      <path id="Trazado_29" data-name="Trazado 29" d="M4050.347,1364.389,4036.26,1367l-10.435,10.7,13.043,2.087" transform="translate(-4024.391 -1346.039)" fill="rgba(255,255,255,0)" stroke="#1a1a1a" stroke-linecap="round" stroke-miterlimit="50" stroke-width="3"/>
+      <path id="Trazado_30" data-name="Trazado 30" d="M4154.3,1354.129a5.739,5.739,0,1,1-5.739-5.739A5.8,5.8,0,0,1,4154.3,1354.129Z" transform="translate(-4110.869 -1334.213)" fill="rgba(255,255,255,0)" stroke="#1a1a1a" stroke-linecap="round" stroke-miterlimit="50" stroke-width="3"/>
+      <path id="Trazado_31" data-name="Trazado 31" d="M4020.326,1476.942s1.487-18.681,12.783-13.565Z" transform="translate(-4020.326 -1418.547)" fill="#fa7819"/>
+      <path id="Trazado_32" data-name="Trazado 32" d="M4021.326,1479.455s18.874-2.487,13.3-13.565Z" transform="translate(-4021.065 -1421.061)" fill="#fa7819"/>
+    </g>
+  </g>
+</svg>

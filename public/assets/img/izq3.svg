@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_7" data-name="Rectángulo 7" width="60" height="60" transform="translate(831 2675)" fill="#fff" stroke="#707070" stroke-width="3"/>
+    </clipPath>
+  </defs>
+  <g id="Enmascarar_grupo_5" data-name="Enmascarar grupo 5" transform="translate(-831 -2675)" clip-path="url(#clip-path)">
+    <g id="icon05" transform="translate(837.652 2675.913)">
+      <path id="Trazado_43" data-name="Trazado 43" d="M2136.022,1906.675l-7.3,18.783,10.435-1.826,5.739,8.348,7.565-19.043" transform="translate(-2128.718 -1873.806)" fill="rgba(255,255,255,0)" stroke="#fb984f" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="50" stroke-width="3"/>
+      <path id="Trazado_44" data-name="Trazado 44" d="M2233.152,1906.675l7.3,18.783-10.435-1.826-5.739,8.348-7.565-19.043" transform="translate(-2193.761 -1873.806)" fill="rgba(255,255,255,0)" stroke="#fb984f" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="50" stroke-width="3"/>
+      <path id="Trazado_45" data-name="Trazado 45" d="M2183.87,1801a19.826,19.826,0,1,1-19.826-19.826A19.842,19.842,0,0,1,2183.87,1801Z" transform="translate(-2140.174 -1781.045)" fill="#fff"/>
+      <path id="Trazado_46" data-name="Trazado 46" d="M2183.37,1800.5a19.826,19.826,0,1,1-19.826-19.826A19.842,19.842,0,0,1,2183.37,1800.5Z" transform="translate(-2139.804 -1780.675)" fill="rgba(255,255,255,0)" stroke="#1a1a1a" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="50" stroke-width="3"/>
+      <path id="Trazado_47" data-name="Trazado 47" d="M2192.957,1814.306a14.87,14.87,0,0,1-29.739,0,14.872,14.872,0,1,1,29.739,0Z" transform="translate(-2154.217 -1794.349)" fill="#fff"/>
+      <path id="Trazado_48" data-name="Trazado 48" d="M2192.717,1814.545a15.07,15.07,0,0,1-15.13,14.87,14.87,14.87,0,1,1,0-29.739A15.071,15.071,0,0,1,2192.717,1814.545Z" transform="translate(-2153.848 -1794.719)" fill="rgba(255,255,255,0)" stroke="#1a1a1a" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="50" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

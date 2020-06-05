@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2e694b33.chunk.css",
+    "main.js": "/static/js/main.948db601.chunk.js",
+    "main.js.map": "/static/js/main.948db601.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.79939d1c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.79939d1c.js.map",
+    "static/css/2.89f067aa.chunk.css": "/static/css/2.89f067aa.chunk.css",
+    "static/js/2.e265e6bd.chunk.js": "/static/js/2.e265e6bd.chunk.js",
+    "static/js/2.e265e6bd.chunk.js.map": "/static/js/2.e265e6bd.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.7d533fd3ba52690bb459cd23c63d44ad.js": "/precache-manifest.7d533fd3ba52690bb459cd23c63d44ad.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.89f067aa.chunk.css.map": "/static/css/2.89f067aa.chunk.css.map",
+    "static/css/main.2e694b33.chunk.css.map": "/static/css/main.2e694b33.chunk.css.map",
+    "static/js/2.e265e6bd.chunk.js.LICENSE.txt": "/static/js/2.e265e6bd.chunk.js.LICENSE.txt",
+    "static/media/1.svg": "/static/media/1.3c70b70e.svg",
+    "static/media/2.svg": "/static/media/2.ed546f88.svg",
+    "static/media/3.svg": "/static/media/3.0c11a11c.svg",
+    "static/media/4.svg": "/static/media/4.b4fd6023.svg",
+    "static/media/bg.svg": "/static/media/bg.f6d088c1.svg",
+    "static/media/headerImage.svg": "/static/media/headerImage.c9c1e023.svg",
+    "static/media/horarios-de-clases.png": "/static/media/horarios-de-clases.67929962.png",
+    "static/media/horarios-de-clases.svg": "/static/media/horarios-de-clases.f461297b.svg",
+    "static/media/horarios-de-clases2.png": "/static/media/horarios-de-clases2.2864a502.png",
+    "static/media/iphone.svg": "/static/media/iphone.9509a77d.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.79939d1c.js",
+    "static/css/2.89f067aa.chunk.css",
+    "static/js/2.e265e6bd.chunk.js",
+    "static/css/main.2e694b33.chunk.css",
+    "static/js/main.948db601.chunk.js"
+  ]
+}

@@ -1,0 +1,887 @@
+.wid-auto {
+  max-width: 670px;
+}
+/* .react-player__play-icon,
+.react-player__shadow {
+  display: none !important;
+} */
+.btn-orange {
+  padding: 15px !important;
+  color: white !important;
+  background-color: #ff4900 !important;
+  border-color: #ff4900 !important;
+  border-radius: 0px !important;
+  text-transform: uppercase;
+  font-size: large !important;
+  width: 200px !important;
+}
+.btn-orange:hover {
+  background-color: #c43d08 !important;
+}
+.text-dark {
+  padding-top: 0px;
+  padding-bottom: 40px;
+}
+.text-colum {
+  font-family: "Segoe UI Regular", normal !important;
+  /* font-weight: normal !important; */
+}
+.text-colum-bold {
+  font-family: "Segoe UI", bold !important;
+  font-weight: bold !important;
+}
+
+/* .text-dark p {
+  margin-top: -50px !important;
+} */
+
+.padding-vertical {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.contacth1 {
+  font-family: "Segoe UI" !important;
+  font-size: 35px !important;
+  margin-left: 24px;
+  font-weight: 500 !important;
+}
+
+.nuestrociclo {
+  margin-top: 70px;
+}
+
+.x-intro-section .x-intro-holder {
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.x-intro-section h1 {
+  font-family: "Segoe UI Regular" !important;
+  font-size: 2.4rem;
+}
+
+.x-intro-section {
+  padding: 60px 0 40px;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+#intro-pic {
+  position: relative;
+  background: none;
+  /* overflow: hidden; */
+}
+
+#jumbotron * {
+  background: none;
+  z-index: 3;
+}
+
+.path_gris {
+  clip-path: polygon(0 0, 100% 9%, 100% 100%, 0 90%);
+  background-color: rgb(230, 230, 230, 0.3) !important;
+}
+
+#jumbotron::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 600px;
+  z-index: 0;
+  background-image: url("/assets/img/landpage3.png");
+  /* background-repeat: no-repeat; */
+  background-size: 100% 100%;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+}
+
+#titulo-button {
+  position: relative;
+  z-index: 2;
+  color: white;
+  font-size: 1.2rem;
+  background-color: rgb(252, 6, 100);
+  padding: 15px 25px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#titulo-button:hover {
+  background-color: #e3085c !important;
+  border-color: #e3085c !important;
+}
+
+.player-wrapper {
+  position: relative;
+  /* padding-top: 50%;  */
+  /*   Player ratio: 100 / (1280 / 720) */
+  /* position: relative; */
+  /* padding-top: 56%; */
+}
+.react-player {
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  /* margin-left: 10%; */
+}
+.player-wrapper2 {
+  position: relative;
+  padding-top: 56.25%; /*   Player ratio: 100 / (1280 / 720) */
+  /* position: relative; */
+  /* padding-top: 56%; */
+}
+.react-player2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* margin-left: 10%; */
+}
+.react-player__preview {
+  background-size: 100% 100% !important;
+}
+#why-code {
+  text-align: center;
+}
+
+.why-code-title {
+  padding-bottom: 70px;
+}
+
+.x-section-heading {
+  padding-bottom: 47px;
+}
+
+.x-item {
+  text-align: center;
+  margin-bottom: 55px;
+  font-size: 13px;
+  line-height: 1.4;
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+.x-item:hover {
+  transform: scale(1.1);
+}
+
+.x-item h3 {
+  font-size: 1.4rem;
+  margin: 0px;
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.x-item .x-icon-wrap {
+  margin-bottom: 14px;
+  max-height: 90px;
+}
+
+#card {
+  border-radius: 25px;
+}
+
+#card-img-top1 {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  width: 100%;
+  height: 300px;
+  background-image: url("/assets/img/upcpene.jpg");
+  background-size: 100% 100%;
+}
+
+#card-img-top2 {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  width: 100%;
+  height: 300px;
+  background-image: url("/assets/img/ulimapene.jpg");
+  background-size: 100% 100%;
+}
+
+#logo {
+  width: 250px;
+  height: 75px;
+}
+
+#x-count-title {
+  color: #a6a6a6;
+  font-size: 1.1rem;
+  text-align: center;
+  font-weight: lighter;
+}
+
+#arrow-d {
+  font-size: 1.2rem;
+}
+
+#arrow {
+  color: #e3085c;
+  font-size: 1.2rem;
+  margin-right: 1px;
+}
+
+.hover_flex {
+  cursor: pointer;
+}
+
+.hover_flex:hover {
+  transform: scale(1.1);
+}
+
+.hover_flex:hover #arrow {
+  margin-right: 5px;
+}
+
+* {
+  font-family: "Open Sans", sans-serif;
+  transition: 0.2s all;
+}
+
+.text-dark p {
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  margin: 0px;
+  font-family: "Segoe UI";
+}
+
+.text-dark2 {
+  padding-top: 40px;
+  padding-bottom: 80px;
+  display: none;
+}
+
+.text-dark2 p {
+  font-weight: bold;
+  font-size: 1.4rem;
+  text-align: center;
+  margin: 0px;
+  font-family: "Century Gothic", sans-serif;
+}
+
+.x-item p {
+  line-height: 20px;
+  margin-top: 10px;
+
+  font-family: "Century Gothic";
+  font-size: 15px;
+}
+
+.x-item h3 {
+  font-family: "Century Gothic";
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.dosis2 {
+  font-family: "oscine", sans-serif !important;
+}
+
+.m-0 {
+  font-weight: bold !important;
+  font-size: 2.2rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding-bottom: 5px;
+}
+
+.padding-vertical {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.time {
+  width: 40px;
+}
+
+#titulo_stark {
+  font-size: 29px !important;
+  /* font-weight: bold; */
+}
+
+/*INTRO TITULO*/
+#titulo-1-intro,
+#titulo-2-intro {
+  font-family: "Consolas", sans-serif !important;
+  word-spacing: 7px;
+  font-size: 35px;
+}
+
+#titulo-1-intro {
+  line-height: 51px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+#titulo-2-intro {
+  line-height: 51px;
+  font-weight: 400;
+}
+
+/*INTRO TITULO*/
+
+.img_porque {
+  width: 100px;
+  height: 90px;
+}
+
+.text_des {
+  margin-top: 10px;
+  line-height: 25px;
+  text-align: center;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.padd_top {
+  padding-top: 3rem;
+}
+
+.card {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.card:hover {
+  transform: scale(0.9);
+  z-index: 10;
+  cursor: pointer;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.card-body h4 {
+  text-align: left;
+  padding-left: 20px;
+  color: #5b5b5b;
+  margin-bottom: 0px;
+}
+
+.card-body p {
+  text-align: left;
+  padding-left: 20px;
+  color: #96979a;
+  margin-bottom: 50px;
+}
+
+.btn_ciclo {
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  color: #1100ff !important;
+  border-color: #1100ff !important;
+  background-color: transparent !important;
+
+  transition: 1s all;
+}
+
+.btn_ciclo:hover {
+  color: #fff !important;
+  background-image: -webkit-linear-gradient(left, #1100ff 0%, #1100ff 100%);
+}
+
+.precio_dsct h6 {
+  color: #5b5b5b;
+  text-decoration: line-through;
+  margin-top: 3px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+}
+
+.precio_ciclo h3 {
+  color: rgb(250, 0, 133);
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.margin_ciclo_button {
+  margin-top: 8px;
+}
+
+.img_sello {
+  width: 250px;
+  margin-bottom: 5rem;
+}
+
+.img-contacto {
+  width: 60px;
+}
+
+.h3 {
+  font-size: 1.1rem !important;
+  color: #1a1a1a;
+  font-family: "Segoe UI", normal !important;
+}
+
+@media (max-width: 1199px) {
+  #pic-main {
+    height: 400px !important;
+  }
+  .image-responsive {
+    height: 600px;
+  }
+  #jumbotron::after {
+    height: 580px !important;
+  }
+}
+
+@media (max-width: 991px) {
+  #pic-main {
+    height: 300px !important;
+  }
+  .btn_ciclo {
+    font-size: 15px !important;
+  }
+  .image-responsive {
+    height: 500px;
+  }
+  /* .text-dark p {
+    margin-top: -10px !important;
+  } */
+
+  .x-intro-section h1 {
+    font-size: 1.8rem;
+  }
+
+  #jumbotron::after {
+    height: 480px !important;
+  }
+
+  #titulo-1-intro,
+  #titulo-2-intro {
+    font-size: 30px;
+  }
+
+  #titulo-1-intro {
+    line-height: 41px;
+  }
+
+  #titulo-2-intro {
+    line-height: 41px;
+  }
+
+  .wid-auto {
+    max-width: 670px;
+  }
+
+  #titulo_stark {
+    font-size: 28px !important;
+  }
+
+  .precio_ciclo h5 {
+    font-size: 1.05rem;
+  }
+
+  .precio_dsct h6 {
+    margin-top: 0px;
+  }
+
+  .margin_ciclo_button {
+    margin-top: 12px;
+  }
+}
+
+@media (max-width: 767px) {
+  .btn_ciclo {
+    font-size: 10px !important;
+  }
+  .MuiButton-contained {
+    font-size: 10px !important;
+  }
+  .MuiSvgIcon-root {
+    font-size: 1rem !important;
+  }
+  .redim {
+    font-size: 10px !important;
+  }
+  .font-rep {
+    font-size: 10px !important;
+  }
+
+  .image-responsive {
+    height: 400px;
+  }
+  .text-dark p {
+    margin-top: 0px !important;
+  }
+
+  /* .react-player {
+    width: 90% !important;
+    height: 90% !important;
+   margin-left: 5%; 
+  } */
+
+  .x-intro-section h1 {
+    font-size: 1.5rem;
+  }
+
+  #jumbotron::after {
+    height: 430px !important;
+  }
+
+  #titulo-1-intro,
+  #titulo-2-intro {
+    font-size: 24px;
+  }
+
+  #titulo-1-intro {
+    line-height: 35px;
+  }
+
+  #titulo-2-intro {
+    line-height: 35px;
+  }
+
+  .wid-auto {
+    max-width: 450px;
+  }
+
+  .padding-vertical {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  /* 
+  .text-dark {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  } */
+
+  .text-dark p {
+    font-size: 20px;
+  }
+
+  #titulo_stark {
+    font-size: 25px !important;
+  }
+
+  .x-item h3 {
+    font-size: 1.2rem;
+  }
+
+  .path_gris {
+    clip-path: polygon(0 0, 100% 5%, 100% 100%, 0 95%);
+  }
+
+  .card-body h4 {
+    font-size: 1.2rem;
+  }
+
+  .precio_ciclo h5 {
+    font-size: 0.7rem;
+  }
+
+  .precio_dsct h6 {
+    font-size: 0.7rem;
+  }
+
+  .margin_ciclo_button {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 575px) {
+  .x-intro-section {
+    padding: 30px 0 20px;
+  }
+
+  .x-intro-section h1 {
+    font-size: 1.1rem;
+  }
+
+  #jumbotron::after {
+    height: 360px !important;
+  }
+
+  #titulo-1-intro,
+  #titulo-2-intro {
+    font-size: 17px;
+    word-spacing: 2px;
+  }
+
+  #titulo-1-intro {
+    line-height: 25px;
+  }
+
+  #titulo-2-intro {
+    line-height: 25px;
+  }
+
+  .wid-auto {
+    max-width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  /* .text-dark {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  } */
+
+  .text-dark p {
+    font-size: 18px;
+  }
+
+  .m-0 {
+    font-size: 1.5rem !important;
+  }
+
+  #x-count-title {
+    font-size: 1.2rem;
+  }
+
+  #titulo_stark {
+    font-size: 22px !important;
+  }
+
+  .contactanos {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 100px !important;
+  }
+
+  .nuestrociclo {
+    margin-top: 50px;
+  }
+
+  .time {
+    width: 27px;
+  }
+
+  .x-item h3 {
+    font-size: 1rem;
+  }
+
+  .precio_ciclo h5 {
+    font-size: 1.1rem;
+  }
+
+  .precio_dsct h6 {
+    margin-top: 2px;
+    font-size: 0.9rem;
+  }
+
+  .why-code-title h2 {
+    font-size: 1.8rem;
+  }
+
+  .why-code-title h5 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 475px) {
+  #pic-main {
+    height: 200px !important;
+  }
+  .img_sello {
+    margin-bottom: 3rem;
+  }
+
+  #jumbotron::after {
+    height: 260px !important;
+  }
+
+  .x-intro-section h1 {
+    font-size: 0.9rem;
+  }
+
+  .x-intro-section .x-intro-holder {
+    font-size: 25px;
+    padding: 0 0px;
+    max-width: 905px;
+  }
+
+  #titulo-1 {
+    font-size: 1rem;
+  }
+
+  #titulo-2 {
+    font-size: 1rem;
+  }
+
+  .text-dark2 {
+    display: block;
+  }
+
+  .text-dark2 p {
+    font-size: 0.95rem;
+  }
+
+  .text-dark2 {
+    padding-bottom: 40px;
+  }
+
+  #titulo-button {
+    font-size: 1rem;
+    padding: 13px 25px;
+  }
+
+  .padd_top {
+    padding-top: 1rem;
+  }
+
+  .path_gris {
+    clip-path: polygon(0 0, 100% 3%, 100% 100%, 0 97%);
+  }
+
+  .card-body h4 {
+    padding-left: 0px;
+  }
+
+  .card-body p {
+    padding-left: 0px;
+  }
+
+  .card {
+    margin-bottom: 30px;
+  }
+
+  .contacth1 {
+    margin-bottom: 10px !important;
+    margin-top: 20px;
+  }
+
+  .img-contacto {
+    width: 40px;
+  }
+
+  .h3 {
+    font-size: 1rem !important;
+  }
+  .btn_ciclo {
+    width: 75% !important;
+    font-size: 10px !important;
+  }
+}
+
+@media (max-width: 400px) {
+  #pic-main {
+    height: 200px !important;
+  }
+  #jumbotron::after {
+    height: 260px !important;
+  }
+
+  .x-intro-section h1 {
+    font-size: 0.9rem;
+  }
+
+  #titulo-1-intro,
+  #titulo-2-intro {
+    font-size: 15px;
+    word-spacing: 2px;
+  }
+
+  #titulo-1-intro {
+    line-height: 20px;
+  }
+
+  #titulo-2-intro {
+    line-height: 20px;
+  }
+
+  .text-dark p {
+    font-size: 14.5px;
+  }
+
+  .padding-vertical {
+    padding-top: 0.9rem;
+    padding-bottom: 0.9rem;
+  }
+
+  .m-0 {
+    font-size: 1.2rem !important;
+  }
+
+  #x-count-title {
+    font-size: 0.9rem;
+  }
+
+  #titulo_stark {
+    font-size: 18px !important;
+  }
+
+  .contacth1 {
+    font-size: 22px !important;
+  }
+
+  .nuestrociclo {
+    font-size: 25px !important;
+  }
+
+  .precio_ciclo h5 {
+    font-size: 0.9rem;
+    text-align: left !important;
+  }
+
+  .precio_dsct h6 {
+    font-size: 0.9rem;
+  }
+
+  .text-dark2 p {
+    font-size: 0.8rem;
+  }
+
+  .text-dark2 {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+  .btn_ciclo {
+    width: 75% !important;
+    font-size: 10px !important;
+  }
+}
+
+@media (max-width: 360px) {
+  #pic-main {
+    height: 150px !important;
+  }
+  #jumbotron::after {
+    height: 250px !important;
+  }
+  .image-responsive {
+    height: 300px;
+  }
+  .btn_ciclo {
+    width: 75% !important;
+    font-size: 7px !important;
+  }
+  .MuiButton-contained {
+    font-size: 10px !important;
+  }
+  .MuiSvgIcon-root {
+    font-size: 1rem !important;
+  }
+  .redim {
+    font-size: 10px !important;
+  }
+  .font-rep {
+    font-size: 10px !important;
+  }
+}
+
+@media (max-width: 960px) {
+  #iphone {
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1400px !important;
+  }
+}
