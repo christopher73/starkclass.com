@@ -1,5 +1,5 @@
 {
-  "name": "client-starkclasss",
+  "name": "starkclass-client",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -37,7 +37,7 @@
     "semantic-ui-react": "^0.87.3"
   },
   "scripts": {
-    "startUnixDev": "HTTPS=true && react-scripts start",
+    "startUnixDev": "HTTPS=true react-scripts start",
     "startWinDev": "set HTTPS=true&&react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -57,5 +57,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "starkclass.com",
+  "main": "index.js",
+  "repository": "https://github.com/christopher73/starkclass-client.git",
+  "author": "christopher73 <christopher.fajardo73@gmail.com>",
+  "license": "MIT"
 }
