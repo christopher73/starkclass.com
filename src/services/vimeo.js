@@ -47,3 +47,27 @@ export const getCiclo = async (_) => {
     };
   }
 };
+
+export const getCicloSanMarcos = async (_) => {
+  try {
+    let response = await fetch(
+      `${process.env.REACT_APP_API_URL}/api/vimeo/getCicloSanMarcos`,
+      {
+        method: "POST",
+        headers: {
+          Accept: "application/json",
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({}),
+      }
+    );
+
+    let responseJson = await response.json();
+    return responseJson;
+  } catch (error) {
+    return {
+      responseCode: 2,
+      error: error,
+    };
+  }
+};

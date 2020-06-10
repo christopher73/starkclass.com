@@ -21,8 +21,10 @@ import Politica from "./pages/Politica";
 import Terminos from "./pages/Terminos";
 import Preguntas from "./pages/Preguntas";
 import Pagos from "./pages/Pay";
+import PagosSM from "./pages/PaySM";
 // import Ciclos from "./pages/Ciclos";
 import VimeoPlayer from "./pages/vimeoPlayer";
+import VimeoPlayerSM from "./pages/vimeoPlayerSM";
 import Ulima from "./pages/Ulima";
 import SanMarcos from "./pages/Smarcos";
 //
@@ -61,7 +63,9 @@ export default function App() {
         <Route exact path="/" component={MainPage} />
         <Switch>
           <PrivateRoute exact path="/pago" component={Pagos} />
+          <PrivateRoute exact path="/pagoSM" component={PagosSM} />
           <PrivateRoute exact path="/rep" component={VimeoPlayer} />
+          <PrivateRoute exact path="/repSM" component={VimeoPlayerSM} />
           <PrivateRoute exact path="/dashboard" component={UserDashboard} />
           <PrivateRoute exact path="/perfil" component={UserDashboard} />
         </Switch>

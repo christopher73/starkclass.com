@@ -7,4 +7,11 @@ export const setCiclo = (data) => dispatch => {
     return dispatch({type: ActionTypes.SET_CURRENT_CICLO, payload: {data}})
     // history.push("/dashboard");
   };
-  // Set
+  export const setCicloSM = (data) => dispatch => {
+
+    let info = JSON.stringify(data)
+    localStorage.setItem("ciclo2", info);
+    return dispatch({type: ActionTypes.SET_CURRENT_CICLO, payload: {data}})
+    // history.push("/dashboard");
+  };
+  // Set 

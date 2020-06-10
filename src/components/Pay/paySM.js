@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Footer from "../Footer/footer";
-import Modal from "../Modal/modal";
+import Modal from "../Modal/modalSM";
 
 export default class pay extends Component {
   amount = 34900;
@@ -47,7 +47,7 @@ export default class pay extends Component {
         <div className="fondoazul">
           <div className="container">
             <h1>¡Tenemos varios métodos de pago, No te preocupes!</h1>
-            <h1>U LIMA</h1>
+            <h1>SAN MARCOS</h1>
           </div>
         </div>
 

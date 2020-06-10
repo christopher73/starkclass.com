@@ -6,9 +6,9 @@ import * as cicloAction from "../../actions/ciclo.actions";
 import PremiumModal from "./Modals/PremiumModal";
 import ClassicModal from "./Modals/ClassicModal";
 import firebase from "../../utils/firebase";
-import { getCiclo } from "../../services/vimeo";
+import { getCiclo, getCicloSanMarcos } from "../../services/vimeo";
 
-function Dashboard({ setCicloData, auth, comprar }) {
+function Dashboard({ setCicloData, setCicloDataSM, auth, comprar }) {
   const [materials, setMaterials] = useState(false);
   const [isShowNotPremiumModal, setIsShowNotPremiumModal] = useState(false);
   const [isShowMaterials, setIsShowMaterials] = useState(false);
@@ -46,7 +46,14 @@ function Dashboard({ setCicloData, auth, comprar }) {
         setCicloData(res);
       });
     }
+    async function getSM() {
+      await getCicloSanMarcos().then((res) => {
+        console.log("response ciclo SM: ", res);
+        setCicloDataSM(res);
+      });
+    }
     getC();
+    getSM();
   }, []);
 
   return (
@@ -107,7 +114,8 @@ function Dashboard({ setCicloData, auth, comprar }) {
                   }}
                 >
                   {auth.user.userId}{" "}
-                  {auth.user.isPremium ? "- PREMIUM" : "- CLASSIC"}
+                  {auth.user.isPremium ? "- PREMIUM U LIMA" : "- CLASSIC UL"}
+                  {auth.user.isPremium ? "- PREMIUM SAN MARCOS" : "- CLASSIC SM"}
                 </span>
               ) : (
                 <span style={{ color: "orange", fontSize: "1.6rem" }}>-</span>
@@ -127,10 +135,10 @@ function Dashboard({ setCicloData, auth, comprar }) {
               <br />
               {auth.user.name}
             </h5>
-            <h5>
+            {/* <h5>
               <strong style={{ textTransform: "uppercase" }}>Ciclo:</strong>
               <br /> Pre Ulima 2020
-            </h5>
+            </h5> */}
           </div>
           <div
             style={{
@@ -147,7 +155,13 @@ function Dashboard({ setCicloData, auth, comprar }) {
               to="/rep"
               className="w-75 btn btn-dark btn-lg text-white mx-auto my-4  shadow-lg"
             >
-              Ver Clases
+              Ver Clases U Lima
+            </Link>
+            <Link
+              to="/repSM"
+              className="w-75 btn btn-dark btn-lg text-white mx-auto my-4  shadow-lg"
+            >
+              Ver Clases San Marcos
             </Link>
             <a
               className="w-75 btn btn-success btn-lg text-white mx-auto my-4  shadow-lg"
@@ -159,7 +173,10 @@ function Dashboard({ setCicloData, auth, comprar }) {
             >
               Clases Online
             </a>{" "}
-            <h4>Comprar:</h4>
+            {auth.user.isPremium === false && auth.user.isPremium === false ? (
+              <h4>Comprar:</h4>
+            ) : null}
+            
             {comprar && auth.user.isPremium === false ? (
               <Link
                 style={{ background: "#EF4F00" }}
@@ -169,13 +186,22 @@ function Dashboard({ setCicloData, auth, comprar }) {
                 Ulima
               </Link>
             ) : null}
-            <btn
+            {comprar && auth.user.isPremium === false ? (
+              <Link
+                style={{ background: "red" }}
+                to="/pagoSM"
+                className="w-75 btn btn-lg text-white mx-auto my-4  shadow-lg"
+              >
+                San Marcos
+              </Link>
+            ) : null}
+            {/* <btn
               style={{ background: "red" }}
               onClick={() => aplicar()}
               className="w-75 btn btn-lg text-white  mx-auto my-4  shadow-lg"
             >
               San Marcos
-            </btn>
+            </btn> */}
           </div>
         </div>
 
@@ -203,5 +229,6 @@ const mapStateToProps = (state) => ({
 
 const mapDispatchToProps = (dispatch, props) => ({
   setCicloData: (data) => dispatch(cicloAction.setCiclo(data)),
+  setCicloDataSM: (data) => dispatch(cicloAction.setCicloSM(data))
 });
 export default connect(mapStateToProps, mapDispatchToProps)(Dashboard);
