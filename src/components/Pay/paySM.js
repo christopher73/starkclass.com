@@ -47,7 +47,10 @@ export default class pay extends Component {
         <div className="fondoazul">
           <div className="container">
             <h1>¡Tenemos varios métodos de pago, No te preocupes!</h1>
-            <h1>SAN MARCOS</h1>
+            <h1>SAN MARCOS - S/. 60.00 x MES</h1>
+            <p style={{
+              textAlign: "center" 
+            }}>*Usa el código "3MESES" y obtén un descuento por ciclo.</p>
           </div>
         </div>
 

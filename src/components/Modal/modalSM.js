@@ -29,7 +29,7 @@ export default class modal extends Component {
   }
   aplicar() {
     window.location.replace(
-      "https://www.mercadopago.com.pe/checkout/v1/redirect?pref_id=520976081-aa7b5bf9-7bd9-4596-943d-ab61df889588"
+      "https://www.mercadopago.com.pe/checkout/v1/redirect?pref_id=520976081-c49124b4-d60a-40b9-8afc-baa2e6997f32"
     );
   }
 
@@ -267,14 +267,14 @@ export default class modal extends Component {
                     backgroundColor: `${
                       this.state.cupon === ""
                         ? "white"
-                        : this.state.cupon === "STARKCLASS10"
+                        : this.state.cupon === "3MESES"
                           ? "#00CD00"
                           : "#F80513"
                       }`,
                   }}
                 />
                 {this.state.cupon === "" ? null : this.state.cupon ===
-                  "STARKCLASS10" ? (
+                  "3MESES" ? (
                     <p style={{ color: "#00CD00" }}>Código válido</p>
                   ) : (
                     <p style={{ color: "#F80513" }}>Código no válido</p>
@@ -312,7 +312,7 @@ export default class modal extends Component {
                 </label>
                 <button
                   className={
-                    this.state.checked && this.state.cupon === "STARKCLASS10"
+                    this.state.checked && this.state.cupon === "3MESES"
                       ? "show"
                       : "disabled"
                   }

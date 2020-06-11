@@ -1,5 +1,5 @@
 export const getAlbum = async (id) => {
-  // console.log(id);
+  console.log(id);
   let bodyRequest = {
     id: id,
   };

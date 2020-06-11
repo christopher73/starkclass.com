@@ -75,7 +75,7 @@ Reserva AHORA" />
             Obtén todas las habilidades que necesitas para ingresar
           </h4>
           <h4 className="h1sub">¡A solo S/ 60.00 x MES!</h4>
-          <p>*AL CONTADO S/ 150.00 x LOS 3 MES</p>
+          <p>*AL CONTADO S/ 150.00 x LOS 3 MESES</p>
           <br />
           {/* <p className="text-dscto ">
             *Inserta el código <strong>STARKCLASS10</strong> y obtén un

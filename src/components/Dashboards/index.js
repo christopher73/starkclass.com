@@ -49,6 +49,7 @@ function Dashboard({ setCicloData, setCicloDataSM, auth, comprar }) {
     async function getSM() {
       await getCicloSanMarcos().then((res) => {
         console.log("response ciclo SM: ", res);
+        console.log("is premium:",auth.user);
         setCicloDataSM(res);
       });
     }
@@ -103,22 +104,46 @@ function Dashboard({ setCicloData, setCicloDataSM, auth, comprar }) {
               />
             </div>
             <h5>
-              <strong style={{ textTransform: "uppercase" }}>User ID: </strong>
+              <strong style={{ textTransform: "uppercase" }}>User: </strong>
               <br />
               {auth.user.userId ? (
                 <span
                   style={{
-                    color: "orange",
+                    color: "#28a745",
                     fontSize: "1.6rem",
                     textTransform: "uppercase",
                   }}
                 >
                   {auth.user.userId}{" "}
-                  {auth.user.isPremium ? "- PREMIUM U LIMA" : "- CLASSIC UL"}
-                  {auth.user.isPremium ? "- PREMIUM SAN MARCOS" : "- CLASSIC SM"}
                 </span>
               ) : (
-                <span style={{ color: "orange", fontSize: "1.6rem" }}>-</span>
+                <span style={{ color: "#28a745", fontSize: "1.6rem" }}>-</span>
+              )}<br />
+              {auth.user.userId ? (
+                <span
+                  style={{
+                    color: "#FC8725",
+                    fontSize: "1.6rem",
+                    textTransform: "uppercase",
+                  }}
+                >
+                  {auth.user.isPremium ? "PREMIUM U LIMA" : "FREE U LIMA"}
+                </span>
+              ) : (
+                <span style={{ color: "#FC8725", fontSize: "1.6rem" }}>-</span>
+              )}<br />
+              {auth.user.userId ? (
+                <span
+                  style={{
+                    color: "#9D1035",
+                    fontSize: "1.6rem",
+                    textTransform: "uppercase",
+                  }}
+                >
+                  {auth.user.isSanMarcosPremium ? "PREMIUM SAN MARCOS" : "FREE SAN MARCOS"}
+                </span>
+              ) : (
+                <span style={{ color: "#9D1035", fontSize: "1.6rem" }}>-</span>
               )}
             </h5>
             <h5>
@@ -171,9 +196,19 @@ function Dashboard({ setCicloData, setCicloDataSM, auth, comprar }) {
                   : setIsShowNotPremiumModal(true)
               }
             >
-              Clases Online
+              Clases Online U Lima
             </a>{" "}
-            {auth.user.isPremium === false && auth.user.isPremium === false ? (
+            <a
+              className="w-75 btn btn-success btn-lg text-white mx-auto my-4  shadow-lg"
+              onClick={() =>
+                auth.user.isSanMarcosPremium
+                  ? setIsShowMaterials(true)
+                  : setIsShowNotPremiumModal(true)
+              }
+            >
+              Clases Online San Marcos
+            </a>{" "}
+            {auth.user.isSanMarcosPremium === false && auth.user.isPremium === false ? (
               <h4>Comprar:</h4>
             ) : null}
             
@@ -183,16 +218,16 @@ function Dashboard({ setCicloData, setCicloDataSM, auth, comprar }) {
                 to="/pago"
                 className="w-75 btn btn-lg text-white mx-auto my-4  shadow-lg"
               >
-                Ulima
+                Comprar Ulima
               </Link>
             ) : null}
-            {comprar && auth.user.isPremium === false ? (
+            {comprar && auth.user.isSanMarcosPremium === false ? (
               <Link
                 style={{ background: "red" }}
                 to="/pagoSM"
                 className="w-75 btn btn-lg text-white mx-auto my-4  shadow-lg"
               >
-                San Marcos
+                Comprar San Marcos
               </Link>
             ) : null}
             {/* <btn
@@ -205,6 +240,7 @@ function Dashboard({ setCicloData, setCicloDataSM, auth, comprar }) {
           </div>
         </div>
 
+        {/*  Boletas
         <div
           className="row"
           style={{ justifyContent: "center", marginTop: 120 }}
@@ -212,7 +248,10 @@ function Dashboard({ setCicloData, setCicloDataSM, auth, comprar }) {
           {auth.user.isPremium ? (
             <button className="pagolink btn btn-link">Boleta de Pago</button>
           ) : null}
-        </div>
+          {auth.user.isSanMarcosPremium ? (
+            <button className="pagolink btn btn-link">Boleta de Pagox</button>
+          ) : null}
+        </div> */}
       </div>
       <div className="col-md-12 m-auto  text-center p-2" align="center">
         <br />

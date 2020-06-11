@@ -214,7 +214,35 @@ function MenuBar(props) {
                       className="imglogowsp"
                     />
                   </ListItemIcon>
-                  Ver Clases
+                  Ver Clases U Lima
+                </Link>
+              </ListItem>
+              <ListItem button key="VerClasesSM">
+                <Link
+                  style={{
+                    width: "100%",
+                    textTransform: "uppercase",
+                    fontWeight: "lighter",
+                    color: "gray",
+                    fontSize: "10px",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "flex-start",
+                  }}
+                  onClick={handleDrawerClose}
+                  className={classes.iconColor}
+                  to="/rep2"
+                >
+                  <ListItemIcon>
+                    <img
+                      alt="img"
+                      src="./assets/icons/play.svg"
+                      width="27"
+                      height="27"
+                      className="imglogowsp"
+                    />
+                  </ListItemIcon>
+                  Ver Clases San Marcos
                 </Link>
               </ListItem>
               <ListItem button key="wsp">

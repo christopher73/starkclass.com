@@ -47,7 +47,7 @@ export default class pay extends Component {
         <div className="fondoazul">
           <div className="container">
             <h1>¡Tenemos varios métodos de pago, No te preocupes!</h1>
-            <h1>U LIMA</h1>
+            <h1>U LIMA - S/. 99.00</h1>
           </div>
         </div>
 

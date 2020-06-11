@@ -286,7 +286,7 @@ class VimeoPlayer extends React.Component {
                   this.state.playSelected !==
                   this.state.playList.info.length - 1
                 ) {
-                  if (auth.user.isPremium) {
+                  if (auth.user.isSanMarcosPremium) {
                     this.setState({
                       playSelected: this.state.playSelected + 1,
                     });
@@ -426,7 +426,7 @@ class VimeoPlayer extends React.Component {
               <Button
                 variant="contained"
                 onClick={() =>
-                  auth.user.isPremium
+                  auth.user.isSanMarcosPremium
                     ? window.open(
                         "https://wa.me/51928374979?text=Hola%2C%20tengo%20una%20duda%20con%20un%20problema",
                         "_blank"
@@ -503,7 +503,7 @@ class VimeoPlayer extends React.Component {
               fontSize: 13,
             }}
             onClick={async () => {
-              if (this.props.auth.user.isPremium) {
+              if (this.props.auth.user.isSanMarcosPremium) {
                 window.scrollTo(0, 0);
                 await this.setState({
                   playSelected: ind,
