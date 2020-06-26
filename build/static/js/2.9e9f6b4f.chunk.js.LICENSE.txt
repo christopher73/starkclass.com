@@ -5,9 +5,9 @@ object-assign
 */
 
 /*!
- * weakmap-polyfill v2.0.0 - ECMAScript6 WeakMap polyfill
+ * weakmap-polyfill v2.0.1 - ECMAScript6 WeakMap polyfill
  * https://github.com/polygonplanet/weakmap-polyfill
- * Copyright (c) 2015-2016 polygon planet <polygon.planet.aqua@gmail.com>
+ * Copyright (c) 2015-2020 Polygon Planet <polygon.planet.aqua@gmail.com>
  * @license MIT
  */
 
@@ -26,7 +26,7 @@ See the Apache Version 2.0 License for specific language governing permissions
 and limitations under the License.
 ***************************************************************************** */
 
-/*! @vimeo/player v2.10.0 | (c) 2019 Vimeo | MIT License | https://github.com/vimeo/player.js */
+/*! @vimeo/player v2.12.0 | (c) 2020 Vimeo | MIT License | https://github.com/vimeo/player.js */
 
 /*! Native Promise Only
       v0.8.1 (c) Kyle Simpson
@@ -35,7 +35,7 @@ and limitations under the License.
 
 /**
  * @license
- * Copyright 2017 Google Inc.
+ * Copyright 2017 Google LLC
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -52,7 +52,7 @@ and limitations under the License.
 
 /**
  * @license
- * Copyright 2018 Google Inc.
+ * Copyright 2018 Google LLC
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -69,7 +69,7 @@ and limitations under the License.
 
 /**
  * @license
- * Copyright 2019 Google Inc.
+ * Copyright 2019 Google LLC
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
