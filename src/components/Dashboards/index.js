@@ -248,18 +248,19 @@ function Dashboard({ setCicloData, setCicloDataSM, auth, comprar }) {
               San Marcos
             </btn> */}
           </div>
+
           <div className='col-md-4 col-sm-4 col-12 text-center '>
-            <AdSense.Google
-              client='ca-pub-5518804397665911'
-              slot='4769757241'
-              style={{
-                display: "inline-block",
-                width: "200px",
-                height: "450px",
-              }}
-              layout='in-article'
-              format='fluid'
-            />
+            <div align='center' style={{ backgroundColor: "#fff" }}>
+              <AdSense.Google
+                client='ca-pub-5518804397665911'
+                slot='4769757241'
+                style={{
+                  display: "inline-block",
+                  width: "200px",
+                  height: "450px",
+                }}
+              />
+            </div>
           </div>
         </div>
 

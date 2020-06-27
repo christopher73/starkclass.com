@@ -49,15 +49,18 @@ Reserva AHORA'
         <br /> <br />
         <Icons /> <br /> <br />
         <ListaDeObjetivos />
-        <AdSense.Google
-          client='ca-pub-5518804397665911'
-          slot='5009430397'
-          style={{ display: "block" }}
-          layout='in-article'
-          format='fluid'
-        />
         <br /> <br /> <br /> <br />
-      </div>{" "}
+        <div align='center' style={{ backgroundColor: "#fff" }}>
+          <AdSense.Google
+            client='ca-pub-5518804397665911'
+            slot='5009430397'
+            style={{ display: "block" }}
+            layout='in-article'
+            format='fluid'
+          />
+        </div>
+        <br /> <br /> <br /> <br />
+      </div>
       <img
         style={{
           width: "100%",
@@ -77,7 +80,7 @@ Reserva AHORA'
         }}
         src={horario}
         alt='horario'
-      />{" "}
+      />
       <br /> <br />
       <Counter />
       <br /> <br />
