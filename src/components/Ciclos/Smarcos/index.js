@@ -53,8 +53,8 @@ Reserva AHORA'
         <div align='center' style={{ backgroundColor: "#fff" }}>
           <AdSense.Google
             client='ca-pub-5518804397665911'
-            slot='5009430397'
-            style={{ display: "block" }}
+            slot='3223003178'
+            style={{ display: "inline-block", width: "728px", height: "90px" }}
             layout='in-article'
             format='fluid'
           />
