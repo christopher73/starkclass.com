@@ -6,33 +6,35 @@ export default function PremiumModal({ setIsShowMaterials, materials }) {
       return materials.map((el, ind) => {
         return (
           <div>
-            <a href={el.name}>{el.name}</a>
+            <a launch='' href={el.name}>
+              Ir a Zoom
+            </a>
           </div>
         );
       });
     }
   }
   return (
-    <div className="fondoGrisRep">
+    <div className='fondoGrisRep'>
       <div
-        className="row"
+        className='row'
         style={{
           justifyContent: "center",
           alignContent: "center",
           height: "100%",
         }}
       >
-        <div className="caja">
+        <div className='caja'>
           <div
-            className="cabeceracaja"
+            className='cabeceracaja'
             style={{ justifyContent: "center", alignContent: "center" }}
           >
             <h1>Link de Clases Online</h1>
-            <div className="cerrar" onClick={() => setIsShowMaterials(false)}>
-              <img alt="img" src="./assets/icons/cerrar.png" width="20" />
+            <div className='cerrar' onClick={() => setIsShowMaterials(false)}>
+              <img alt='img' src='./assets/icons/cerrar.png' width='20' />
             </div>
           </div>
-          <div className="bodycaja">
+          <div className='bodycaja'>
             <br />
             <label
               style={{
@@ -47,14 +49,15 @@ export default function PremiumModal({ setIsShowMaterials, materials }) {
             <div style={{ textAlign: "center", paddingTop: 18 }}>
               {rendermaterial()}
             </div>
-            <p className="text-colum-bold">
+            <p className='text-colum-bold'>
               <strong>NOTA:</strong>
             </p>
 
             <p>
               *Conecta tu cable de Red a la PC o Laptop.
-              *Descarga Zoom.
-              *Usa audifonos para que puedas escuchar mejor.
+              <br />
+              *Descarga Zoom. *Usa audifonos para que puedas escuchar mejor.
+              <br />
               *Presta atención a las clases.
             </p>
             <br />

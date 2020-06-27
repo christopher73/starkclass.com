@@ -9,17 +9,14 @@ import { Provider } from "react-redux";
 import { setCurrentUser, logoutUser } from "./actions/actions";
 
 import MenuBar from "./components/Menu";
-import ContactUS from "./pages/ContactUS";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import UserDashboard from "./pages/UserDashboard";
 import PrivateRoute from "./pages/PrivateRoute";
 
 //REFACTORIZADO
-import MainPage from "./pages/MainPage";
-import Politica from "./pages/Politica";
-import Terminos from "./pages/Terminos";
-import Preguntas from "./pages/Preguntas";
+import LandingPage from "./pages/LandingPage";
+
 import Pagos from "./pages/Pay";
 import PagosSM from "./pages/PaySM";
 // import Ciclos from "./pages/Ciclos";
@@ -27,6 +24,8 @@ import VimeoPlayer from "./pages/vimeoPlayer";
 import VimeoPlayerSM from "./pages/vimeoPlayerSM";
 import Ulima from "./pages/Ulima";
 import SanMarcos from "./pages/Smarcos";
+import AdSense from "react-adsense";
+
 //
 
 // Check for token to keep user logged in
@@ -51,23 +50,28 @@ export default function App() {
   return (
     <Provider store={store}>
       <Router>
+        <div align='center' style={{ backgroundColor: "#fff" }}>
+          <AdSense.Google
+            client='ca-pub-5518804397665911'
+            slot='3223003178'
+            style={{ display: "inline-block", width: "728px", height: "90px" }}
+            layout='in-article'
+            format='fluid'
+          />
+        </div>
         <MenuBar />
-        <Route exact path="/login" component={Login} />
-        <Route exact path="/contactUs" component={ContactUS} />
-        <Route exact path="/register" component={Register} />
-        <Route exact path="/politica" component={Politica} />
-        <Route exact path="/terminos" component={Terminos} />
-        <Route exact path="/preguntas" component={Preguntas} />
-        <Route exact path="/ciclo-pre-Lima" component={Ulima} />
-        <Route exact path="/ciclo-san-marcos" component={SanMarcos} />
-        <Route exact path="/" component={MainPage} />
+        <Route exact path='/' component={LandingPage} />
+        <Route exact path='/login' component={Login} />
+        <Route exact path='/register' component={Register} />
+        <Route exact path='/ciclo-pre-Lima' component={Ulima} />
+        <Route exact path='/ciclo-san-marcos' component={SanMarcos} />
         <Switch>
-          <PrivateRoute exact path="/pago" component={Pagos} />
-          <PrivateRoute exact path="/pagoSM" component={PagosSM} />
-          <PrivateRoute exact path="/rep" component={VimeoPlayer} />
-          <PrivateRoute exact path="/repSM" component={VimeoPlayerSM} />
-          <PrivateRoute exact path="/dashboard" component={UserDashboard} />
-          <PrivateRoute exact path="/perfil" component={UserDashboard} />
+          <PrivateRoute exact path='/pago' component={Pagos} />
+          <PrivateRoute exact path='/rep' component={VimeoPlayer} />
+          <PrivateRoute exact path='/pagoSM' component={PagosSM} />
+          <PrivateRoute exact path='/repSM' component={VimeoPlayerSM} />
+          <PrivateRoute exact path='/dashboard' component={UserDashboard} />
+          <PrivateRoute exact path='/perfil' component={UserDashboard} />
         </Switch>
       </Router>
     </Provider>

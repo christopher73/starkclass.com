@@ -7,7 +7,10 @@ export default function ClassicModal({ setIsShowNotPremiumModal, materials }) {
       return materials.map((el, ind) => {
         return (
           <div key={ind}>
-            <a href={el.name}>{el.name}</a>
+            {/* <a href={el.name}>ZOOM LINK</a> */}
+            <a launch='' href={el.name}>
+              Ir a Zoom{" "}
+            </a>
           </div>
         );
       });
@@ -15,7 +18,7 @@ export default function ClassicModal({ setIsShowNotPremiumModal, materials }) {
   }
   return (
     <div
-      className="fondoGrisRep"
+      className='fondoGrisRep'
       style={{
         justifyContent: "center",
         alignItems: "center",
@@ -25,7 +28,7 @@ export default function ClassicModal({ setIsShowNotPremiumModal, materials }) {
       }}
     >
       <div
-        className="row"
+        className='row'
         style={{
           justifyContent: "center",
           alignContent: "center",
@@ -33,18 +36,18 @@ export default function ClassicModal({ setIsShowNotPremiumModal, materials }) {
           position: "fixed",
         }}
       >
-        <div className="caja">
-          <div className="cabeceracaja" style={{ justifyContent: "flex-end" }}>
+        <div className='caja'>
+          <div className='cabeceracaja' style={{ justifyContent: "flex-end" }}>
             <h1>Link de Clases Online</h1>
 
             <div
-              className="cerrar"
+              className='cerrar'
               onClick={() => setIsShowNotPremiumModal(false)}
             >
-              <img alt="img" src="./assets/icons/cerrar.png" width="20" />
+              <img alt='img' src='./assets/icons/cerrar.png' width='20' />
             </div>
           </div>
-          <div className="bodycaja">
+          <div className='bodycaja'>
             <div
               style={{
                 paddingTop: 18,
@@ -66,14 +69,17 @@ export default function ClassicModal({ setIsShowNotPremiumModal, materials }) {
               <div style={{ textAlign: "center", paddingTop: 18 }}>
                 {rendermaterial()}
               </div>
-              <p className="text-colum-bold">
+              <p className='text-colum-bold'>
                 <strong>NOTA:</strong>
               </p>
 
               <p>
                 *Conecta tu cable de Red a la PC o Laptop.
+                <br />
                 *Descarga Zoom.
+                <br />
                 *Usa audifonos para que puedas escuchar mejor.
+                <br />
                 *Presta atención a las clases.
               </p>
               <br />

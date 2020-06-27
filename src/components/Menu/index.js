@@ -108,35 +108,35 @@ function MenuBar(props) {
     <div className={classes.root}>
       <CssBaseline />
       <AppBar
-        position="static"
+        position='static'
         className={clsx(classes.appBar, {
           [classes.appBarShift]: open,
         })}
       >
-        <nav className="navbar navbar-dark bg-dark navi-color text-center">
+        <nav className='navbar navbar-dark bg-dark navi-color text-center'>
           *Síguenos en Fb como @Starkclass para más novedades{" "}
         </nav>
         <Toolbar>
           <div className={classes.title}>
-            <Link onClick={handleDrawerClose} to="/">
+            <Link onClick={handleDrawerClose} to='/'>
               {" "}
               <img
-                src="/assets/img/pene1.svg"
-                alt="Logo"
-                height="70"
-                width="230"
-                className="imglogo"
+                src='/assets/img/pene1.svg'
+                alt='Logo'
+                height='70'
+                width='230'
+                className='imglogo'
               />
             </Link>
           </div>
           <IconButton
-            color="inherit"
-            aria-label="open drawer"
-            edge="end"
+            color='inherit'
+            aria-label='open drawer'
+            edge='end'
             onClick={handleDrawerOpen}
             className={clsx(open && classes.hide)}
           >
-            <MenuIcon fontSize="large" />
+            <MenuIcon fontSize='large' />
           </IconButton>
         </Toolbar>
       </AppBar>
@@ -148,8 +148,8 @@ function MenuBar(props) {
 
       <Drawer
         className={classes.drawer}
-        variant="persistent"
-        anchor="right"
+        variant='persistent'
+        anchor='right'
         open={open}
         classes={{
           paper: classes.drawerPaper,
@@ -168,10 +168,10 @@ function MenuBar(props) {
         <List>
           {isAuthenticated ? (
             <div>
-              <ListItem button key="Profile">
+              <ListItem button key='Profile'>
                 <Link
                   onClick={handleDrawerClose}
-                  to="/dashboard"
+                  to='/dashboard'
                   style={{ width: "100%" }}
                 >
                   <Avatar
@@ -189,7 +189,7 @@ function MenuBar(props) {
                 </Link>
               </ListItem>
               <Divider />{" "}
-              <ListItem button key="VerClases">
+              <ListItem button key='VerClases'>
                 <Link
                   style={{
                     width: "100%",
@@ -203,21 +203,21 @@ function MenuBar(props) {
                   }}
                   onClick={handleDrawerClose}
                   className={classes.iconColor}
-                  to="/rep"
+                  to='/rep'
                 >
                   <ListItemIcon>
                     <img
-                      alt="img"
-                      src="./assets/icons/play.svg"
-                      width="27"
-                      height="27"
-                      className="imglogowsp"
+                      alt='img'
+                      src='./assets/icons/play.svg'
+                      width='27'
+                      height='27'
+                      className='imglogowsp'
                     />
                   </ListItemIcon>
                   Ver Clases U Lima
                 </Link>
               </ListItem>
-              <ListItem button key="VerClasesSM">
+              <ListItem button key='VerClasesSM'>
                 <Link
                   style={{
                     width: "100%",
@@ -231,21 +231,21 @@ function MenuBar(props) {
                   }}
                   onClick={handleDrawerClose}
                   className={classes.iconColor}
-                  to="/rep2"
+                  to='/repSM'
                 >
                   <ListItemIcon>
                     <img
-                      alt="img"
-                      src="./assets/icons/play.svg"
-                      width="27"
-                      height="27"
-                      className="imglogowsp"
+                      alt='img'
+                      src='./assets/icons/play.svg'
+                      width='27'
+                      height='27'
+                      className='imglogowsp'
                     />
                   </ListItemIcon>
                   Ver Clases San Marcos
                 </Link>
               </ListItem>
-              <ListItem button key="wsp">
+              <ListItem button key='wsp'>
                 <a
                   onClick={handleDrawerClose}
                   style={{
@@ -258,15 +258,15 @@ function MenuBar(props) {
                     alignItems: "center",
                     justifyContent: "flex-start",
                   }}
-                  href="https://wa.me/51997914757?text=%C2%A1Hola!%20%F0%9F%99%82"
-                  target="blank"
+                  href='https://wa.me/51997914757?text=%C2%A1Hola!%20%F0%9F%99%82'
+                  target='blank'
                 >
                   <ListItemIcon>
                     <img
-                      alt="img"
-                      src="./assets/icons/logowtsp.svg"
-                      width="30"
-                      className="imglogowsp"
+                      alt='img'
+                      src='./assets/icons/logowtsp.svg'
+                      width='30'
+                      className='imglogowsp'
                     />
                   </ListItemIcon>
                   Soporte
@@ -275,7 +275,7 @@ function MenuBar(props) {
             </div>
           ) : (
             <div>
-              <ListItem button key="Login">
+              <ListItem button key='Login'>
                 <Link
                   className={classes.iconColor}
                   style={{
@@ -289,7 +289,7 @@ function MenuBar(props) {
                     justifyContent: "flex-start",
                   }}
                   onClick={handleDrawerClose}
-                  to="/login"
+                  to='/login'
                 >
                   <ListItemIcon>
                     <LoginIcon className={classes.iconColor} />
@@ -297,7 +297,7 @@ function MenuBar(props) {
                   Iniciar Sesión
                 </Link>
               </ListItem>
-              <ListItem button key="Register">
+              <ListItem button key='Register'>
                 <Link
                   style={{
                     width: "100%",
@@ -310,7 +310,7 @@ function MenuBar(props) {
                     justifyContent: "flex-start",
                   }}
                   onClick={handleDrawerClose}
-                  to="/register"
+                  to='/register'
                 >
                   <ListItemIcon>
                     <RegisterICon className={classes.iconColor} />
@@ -322,7 +322,7 @@ function MenuBar(props) {
           )}
           {isAuthenticated ? null : (
             <div>
-              <ListItem button key="ciclos">
+              <ListItem button key='ciclos'>
                 <HashLink
                   style={{
                     width: "100%",
@@ -335,7 +335,7 @@ function MenuBar(props) {
                     justifyContent: "flex-start",
                   }}
                   onClick={handleDrawerClose}
-                  to="/#ciclosuni"
+                  to='/#ciclosuni'
                 >
                   <ListItemIcon>
                     <CursosIcon className={classes.iconColor} />
@@ -343,7 +343,7 @@ function MenuBar(props) {
                   Ciclos
                 </HashLink>
               </ListItem>
-              <ListItem button key="why-code">
+              <ListItem button key='why-code'>
                 <HashLink
                   style={{
                     width: "100%",
@@ -357,7 +357,7 @@ function MenuBar(props) {
                   }}
                   className={classes.iconColor}
                   onClick={handleDrawerClose}
-                  to="/#porqueStarkClass"
+                  to='/#porqueStarkClass'
                 >
                   <ListItemIcon>
                     <QuestionIcon className={classes.iconColor} />
@@ -365,7 +365,7 @@ function MenuBar(props) {
                   Acerca de
                 </HashLink>
               </ListItem>
-              <ListItem button key="Cart">
+              <ListItem button key='Cart'>
                 <HashLink
                   style={{
                     width: "100%",
@@ -378,7 +378,7 @@ function MenuBar(props) {
                     justifyContent: "flex-start",
                   }}
                   onClick={handleDrawerClose}
-                  to="/#contactos"
+                  to='/#contactos'
                 >
                   <ListItemIcon>
                     <ChatIcon className={classes.iconColor} />
@@ -391,7 +391,7 @@ function MenuBar(props) {
 
           {isAuthenticated ? (
             <div>
-              <ListItem button key="Log Out">
+              <ListItem button key='Log Out'>
                 <Link
                   style={{
                     width: "100%",
@@ -403,7 +403,7 @@ function MenuBar(props) {
                     alignItems: "center",
                     justifyContent: "flex-start",
                   }}
-                  to="/"
+                  to='/'
                   onClick={() => {
                     handleDrawerClose();
                     props.logoutUser();
@@ -412,11 +412,11 @@ function MenuBar(props) {
                 >
                   <ListItemIcon>
                     <img
-                      alt="img"
-                      src="./assets/icons/salir.svg"
-                      width="27"
-                      height="27"
-                      className="imglogowsp"
+                      alt='img'
+                      src='./assets/icons/salir.svg'
+                      width='27'
+                      height='27'
+                      className='imglogowsp'
                     />
                   </ListItemIcon>
                   Cerrar sesión
