@@ -2,7 +2,7 @@ import React from "react";
 import icon1 from "../assets/icons/1.svg";
 import icon2 from "../assets/icons/2.svg";
 import icon3 from "../assets/icons/3.svg";
-import icon4 from "../assets/icons/4.svg";
+import icon4 from "./assets/Enmascarar grupo 69.svg";
 
 export default function Icons() {
   return (
@@ -30,6 +30,13 @@ export default function Icons() {
         <p className="m-0">CALIDAD</p>
         <div id="x-count-title">
           <span id="arrow"> > </span> +15 AÑOS DE EXPERIENCIA
+        </div>
+      </div>{" "}
+      <div className="col-md-3 col-sm-12 col-12 my-3 mx-auto hover_flex">
+        <img alt="manzana_" src={icon4} width="70" />
+        <p className="m-0">INGRESANTES</p>
+        <div id="x-count-title">
+          <span id="arrow"> > </span> 22 ALUMNOS
         </div>
       </div>{" "}
     </div>

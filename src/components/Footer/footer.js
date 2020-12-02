@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import FavoriteIcon from "@material-ui/icons/Favorite";
 import "./styleFooter.css";
 
 export default class Footer extends Component {
@@ -23,34 +24,14 @@ export default class Footer extends Component {
                 }}
               >
                 <button className="sinHover btn btn-link">
-                  Copyright ©
-                  <Link to="/#home" className=" text-dark">
-                    {" "}
-                    Starkclass
-                  </Link>{" "}
-                  2019
+                  <a>
+                    Built with passion{" "}
+                    <FavoriteIcon fontSize="small" htmlColor="red" /> by
+                    Christopher Fajardo
+                  </a>
                 </button>
               </div>
-            ) : (
-              <div
-                className="col-12 div_footer_left"
-                style={{
-                  backgroundColor: "white",
-                  textAlign: "center",
-                  paddingLeft: 7,
-                  paddingRight: 7,
-                }}
-              >
-                <button className="sinHover btn btn-link">
-                  Copyright ©
-                  <Link to="./#home" className=" text-dark">
-                    {" "}
-                    Starkclass
-                  </Link>{" "}
-                  2019
-                </button>
-              </div>
-            )}
+            ) : null}
             {this.props.sectionR ? (
               <div
                 className="col-md-5 div_footer_rigth my-auto"
@@ -99,6 +80,25 @@ export default class Footer extends Component {
                 </div>
               </div>
             ) : null}
+          </div>
+          <div className="row text-center">
+            <div
+              className="col-md-12 "
+              style={{
+                backgroundColor: "white",
+                paddingLeft: 7,
+                paddingRight: 7,
+              }}
+            >
+              <button className="sinHover btn btn-link">
+                Copyright ©
+                <Link to="/#home" className=" text-dark">
+                  {" "}
+                  Starkclass
+                </Link>{" "}
+                2019
+              </button>
+            </div>
           </div>
         </div>
       </div>

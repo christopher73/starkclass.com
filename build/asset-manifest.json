@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.06dbec20.chunk.css",
-    "main.js": "/static/js/main.e45668a0.chunk.js",
-    "main.js.map": "/static/js/main.e45668a0.chunk.js.map",
+    "main.css": "/static/css/main.9a72cb42.chunk.css",
+    "main.js": "/static/js/main.18a44938.chunk.js",
+    "main.js.map": "/static/js/main.18a44938.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ffcc14cc.js",
     "runtime-main.js.map": "/static/js/runtime-main.ffcc14cc.js.map",
-    "static/js/2.c8fe230d.chunk.js": "/static/js/2.c8fe230d.chunk.js",
-    "static/js/2.c8fe230d.chunk.js.map": "/static/js/2.c8fe230d.chunk.js.map",
+    "static/js/2.7f8d6ef0.chunk.js": "/static/js/2.7f8d6ef0.chunk.js",
+    "static/js/2.7f8d6ef0.chunk.js.map": "/static/js/2.7f8d6ef0.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.9e20af16133562c0440c5534fe868e33.js": "/precache-manifest.9e20af16133562c0440c5534fe868e33.js",
+    "precache-manifest.971c95aca5d6d84dcd2c4517fc9fa98f.js": "/precache-manifest.971c95aca5d6d84dcd2c4517fc9fa98f.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.06dbec20.chunk.css.map": "/static/css/main.06dbec20.chunk.css.map",
-    "static/js/2.c8fe230d.chunk.js.LICENSE.txt": "/static/js/2.c8fe230d.chunk.js.LICENSE.txt",
+    "static/css/main.9a72cb42.chunk.css.map": "/static/css/main.9a72cb42.chunk.css.map",
+    "static/js/2.7f8d6ef0.chunk.js.LICENSE.txt": "/static/js/2.7f8d6ef0.chunk.js.LICENSE.txt",
     "static/media/1.svg": "/static/media/1.3c70b70e.svg",
     "static/media/2.svg": "/static/media/2.ed546f88.svg",
     "static/media/3.svg": "/static/media/3.0c11a11c.svg",
     "static/media/4.svg": "/static/media/4.b4fd6023.svg",
+    "static/media/5.svg": "/static/media/5.2eaf89be.svg",
+    "static/media/Enmascarar grupo 69.svg": "/static/media/Enmascarar grupo 69.2eaf89be.svg",
+    "static/media/Estudio Audio S.A.png": "/static/media/Estudio Audio S.A.6ab0a523.png",
     "static/media/bg.svg": "/static/media/bg.f6d088c1.svg",
-    "static/media/headerImage.svg": "/static/media/headerImage.c9c1e023.svg",
+    "static/media/headerImage.svg": "/static/media/headerImage.1d4d6824.svg",
     "static/media/horarios-de-clases.png": "/static/media/horarios-de-clases.67929962.png",
     "static/media/horarios-de-clases.svg": "/static/media/horarios-de-clases.f461297b.svg",
     "static/media/horarios-de-clases2.png": "/static/media/horarios-de-clases2.2864a502.png",
@@ -25,8 +28,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.ffcc14cc.js",
-    "static/js/2.c8fe230d.chunk.js",
-    "static/css/main.06dbec20.chunk.css",
-    "static/js/main.e45668a0.chunk.js"
+    "static/js/2.7f8d6ef0.chunk.js",
+    "static/css/main.9a72cb42.chunk.css",
+    "static/js/main.18a44938.chunk.js"
   ]
 }

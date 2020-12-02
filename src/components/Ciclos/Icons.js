@@ -3,6 +3,7 @@ import icon1 from "./assets/icons/1.svg";
 import icon2 from "./assets/icons/2.svg";
 import icon3 from "./assets/icons/3.svg";
 import icon4 from "./assets/icons/4.svg";
+import icon5 from "./assets/icons/5.svg";
 
 export default function Icons() {
   return (
@@ -39,6 +40,13 @@ export default function Icons() {
           <span id="arrow"> > </span> EJERCICIOS EN VIDEO
         </div>
       </div>
+      <div className="col-md-3 col-sm-12 col-12 my-3 mx-auto hover_flex">
+        <img alt="manzana_" src={icon5} width="70" />
+        <p className="m-0">INGRESANTES</p>
+        <div id="x-count-title">
+          <span id="arrow"> > </span> 23 ALUMNOS
+        </div>
+      </div>{" "}
     </div>
   );
 }

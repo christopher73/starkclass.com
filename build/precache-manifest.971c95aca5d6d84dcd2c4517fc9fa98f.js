@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b8cacf18f71a1460731eb201e1b572a5",
+    "revision": "f872647d6e4483a68a988e685fa8da53",
     "url": "/index.html"
   },
   {
-    "revision": "18dddc2ee10205c783dd",
-    "url": "/static/css/main.06dbec20.chunk.css"
+    "revision": "f38f1ddb11d7fc33e9fa",
+    "url": "/static/css/main.9a72cb42.chunk.css"
   },
   {
-    "revision": "5cbd2fab66b431928230",
-    "url": "/static/js/2.c8fe230d.chunk.js"
+    "revision": "ab7575b02d6c21da0aa0",
+    "url": "/static/js/2.7f8d6ef0.chunk.js"
   },
   {
     "revision": "13e2ac238f64364004c1b1f1d9fd0744",
-    "url": "/static/js/2.c8fe230d.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.7f8d6ef0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "18dddc2ee10205c783dd",
-    "url": "/static/js/main.e45668a0.chunk.js"
+    "revision": "f38f1ddb11d7fc33e9fa",
+    "url": "/static/js/main.18a44938.chunk.js"
   },
   {
     "revision": "f413a69b46f8e9e3a12f",
@@ -40,16 +40,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/4.b4fd6023.svg"
   },
   {
+    "revision": "2eaf89be9bf40aaee826130be91a9165",
+    "url": "/static/media/5.2eaf89be.svg"
+  },
+  {
+    "revision": "2eaf89be9bf40aaee826130be91a9165",
+    "url": "/static/media/Enmascarar grupo 69.2eaf89be.svg"
+  },
+  {
+    "revision": "6ab0a523390c27ded3b30f6f680b6657",
+    "url": "/static/media/Estudio Audio S.A.6ab0a523.png"
+  },
+  {
     "revision": "f6d088c1b6fdc47e82f15e2d13f0f8fe",
     "url": "/static/media/bg.f6d088c1.svg"
   },
   {
     "revision": "1d4d682422e4461011492d577405d404",
     "url": "/static/media/headerImage.1d4d6824.svg"
-  },
-  {
-    "revision": "c9c1e023da6130da2a2627643d4c0170",
-    "url": "/static/media/headerImage.c9c1e023.svg"
   },
   {
     "revision": "6792996298574cc3873d7386072734fb",

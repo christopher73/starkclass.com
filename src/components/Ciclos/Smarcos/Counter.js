@@ -9,13 +9,23 @@ function Counter({ auth }) {
       <div align="center">
         <br /> <br />
         <h3 style={{ fontSize: "3rem" }} className="m-4 mx-auto text-center">
-          OFERTA VÁLIDA HASTA...          <br />
+          OFERTA VÁLIDA HASTA... <br />
           <br />
           <TimeCounter hr={72} message="El cupón ya expiró" />
         </h3>{" "}
         <br />
-        <br />
-        {auth.user.isPremium ? (
+        <br />{" "}
+        <a
+          href="https://wa.me/message/LJQ67CQQXQKZL1"
+          className="btn-orange btn shadow-lg my-4 mx-auto"
+          aria-pressed="true"
+          to={{
+            pathname: "/dashboard",
+          }}
+        >
+          Comprar
+        </a>
+        {/* {auth.user.isPremium ? (
           <Link
             className="btn-orange btn shadow-lg my-4 mx-auto"
             aria-pressed="true"
@@ -35,7 +45,7 @@ function Counter({ auth }) {
             >
               Comprar
             </Link>
-          )}
+          )} */}
         <br />
       </div>
     </div>
