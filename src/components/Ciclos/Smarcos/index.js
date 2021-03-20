@@ -90,7 +90,7 @@ Reserva AHORA"
           <h4 className="h2sub">
             Obtén todas las habilidades que necesitas para ingresar
           </h4>
-          <h4 className="h1sub">¡A solo S/ 70.00 x 3 MESES!</h4>
+          <h4 className="h1sub">¡A solo S/ 200.00 x 3 MESES!</h4>
           {/* <p>*AL CONTADO S/ 150.00 x LOS 3 MESES</p> */}
           <br />
           {/* <p className="text-dscto ">
